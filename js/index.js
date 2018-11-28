@@ -1,3 +1,7 @@
+//COMANDO PARA DESPLEGAR MODAL
+// $('#pregModal').modal("show")
+
+
 let submitted = false;
 
 function whatIsHacker() {
