@@ -46,7 +46,7 @@ background: linear-gradient(to right, rgba(106,255,143,1) 0%, rgba(0,172,191,1) 
   display: flex;
   -ms-align-items: center;
   align-items: center;
-  height: 100vh;
+  height: 800px;
 }
 
 .hackers p{
