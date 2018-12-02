@@ -207,8 +207,9 @@
               </div>
               <div class="centrado col-sm">
 
-
-
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='https://ucabdevs.github.io/UcabDevs/';}"></iframe>
+                <form action="https://docs.google.com/forms/d/e/1FAIpQLScVKlgASMH4TCvWj7HJvhDeZYOZ-5c4w3OZNcb7ffbwrNF-Uw/formResponse" method="post" target="hidden_iframe" 
+                onsubmit="submitted=true;">
               <div class="form-group">
                 <label for="entry.1487016029">Correo*</label>
                 <input type="email" name="entry.1487016029" class="form-control" id="email" placeholder="Ingresa tu correo" required>
@@ -222,7 +223,7 @@
 
               <div class="form-group">
                 <label for="entry.29181303">Semestre</label>
-                <input name="entry.29242980" type="text" class="form-control" placeholder="Semestre">
+                <input name="entry.29181303" type="text" class="form-control" placeholder="Semestre">
               </div>
 
               <div class="form-group">
@@ -230,7 +231,7 @@
                 <input name="entry.214292999" type="text" class="form-control" placeholder="Cuéntanos">
               </div>
 
-              <input type="submit" class="btn btn-warning" value="Enviar">
+              <button type="submit" class="btn btn-primary" value="Send">Enviar</button>
               <small id="emailHelp" class="form-text smallText">Esta información llegará a ucabdevs@gmail.com</small>
             </form>
 
