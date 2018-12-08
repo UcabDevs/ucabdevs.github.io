@@ -31,7 +31,9 @@
   display: flex;
   -ms-align-items: center;
   align-items: center;
-  height: 400px
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .inscribete{
@@ -55,7 +57,9 @@
   display: flex;
   -ms-align-items: center;
   align-items: center;
-  height: 400px
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .smallSectionBlack p{

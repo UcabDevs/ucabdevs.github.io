@@ -98,32 +98,60 @@
     <article class="alignLeft">
       <div class="container">
         <div class="encabezado">
-          <h2>¿CUÁNDO NOS CONOCEREMOS?</h2>
+          <h2>EL 12 DE DICIEMBRE SERÁ NUESTRO PRIMER CONVERSATORIO</h2>
         </div>
         <p>
           <span class="funciones">function</span> cuandoNosConoceremos(){</p>
         <p>
           <span class="funciones">alert</span>
-          <span class="string">('Pronto tendremos nuestro primer conversatorio, estén pendientes de nuestro instagram')</span>
+          <span class="string">('Nuestro primer evento será el 12 de diciembre en la Terraza DIDES en Mezzanina de EC. EN el estaremos hablando un poco más a fondo de la agrupación y plantearemos nuestra visión de la misma para el siguiente semestre. Si estás interesado en venir, confrima tu asistencia aquí abajo. ¡Te esperamos!')</span>
         </p>
         <p>}</p>
         <p>
           <span class="call">cuandoNosConoceremos()</span>()</p>
         <div class="boton-try">
-          <button class="btn btn-warning " type="button" name="button" data-toggle="modal" data-target="#alertModal">Pruébalo</button>
+          <button class="btn btn-warning " type="button" name="button" data-toggle="modal" data-target="#alertModal">Confirma tu asistencia</button>
         </div>
       </div>
       <div class="modal fade" tabindex="-1" role="dialog" id="alertModal">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">¿CUÁNDO NOS CONOCEREMOS?</h5>
+              <h5 class="modal-title">Confirma tu asistencia</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <p>Pronto tendremos nuestro primer conversatorio, estén pendientes de nuestro instagram</p>
+              <form action="https://docs.google.com/forms/d/e/1FAIpQLSe2tbO2th8osasa5oomT3SbtfcG_yNbu-u7kxyB3yKRXiMidA/formResponse" method="post"
+               target="hidden_iframe" onsubmit="submitted=true;">
+               <div class="form-group">
+                 <label for="entry.548687405">Correo*</label>
+                 <input type="email" name="entry.548687405" class="form-control" id="email" placeholder="Ingresa tu correo" required>
+               </div>
+
+               <div class="form-group">
+                 <label for="entry.675827436">Nombre*</label>
+                 <input name="entry.675827436" type="text" class="form-control" placeholder="Nombre" required>
+               </div>
+
+               <div class="form-group">
+                 <label for="entry.820020539">Carrera</label>
+                 <input name="entry.820020539" type="text" class="form-control" placeholder="Carrera" required>
+               </div>
+
+               <div class="form-group">
+                 <label for="entry.2000967538">¿Asistirás al prelanzamiento de la agrupación?</label>
+                 <select name="entry.2000967538">
+                   <option value="Si">Sí</option>
+                   <option value="No">No</option>
+                   <option value="Duda">Duda</option>
+                 </select>
+               </div>
+
+               <button type="submit" class="btn btn-primary" value="Send">Enviar</button>
+               <small id="emailHelp" class="form-text smallText">Esta información llegará a ucabdevs@gmail.com</small>
+             </form>
             </div>
           </div>
         </div>
@@ -264,35 +292,3 @@
 </body>
 
 </html>
-
-
-<!-- <form action="https://docs.google.com/forms/d/e/1FAIpQLSe2tbO2th8osasa5oomT3SbtfcG_yNbu-u7kxyB3yKRXiMidA/formResponse" method="post"
-  target="hidden_iframe" onsubmit="submitted=true;">
-  <div class="form-group">
-    <label for="entry.548687405">Correo*</label>
-    <input type="email" name="entry.548687405" class="form-control" id="email" placeholder="Ingresa tu correo" required>
-  </div>
-
-  <div class="form-group">
-    <label for="entry.675827436">Nombre*</label>
-    <input name="entry.675827436" type="text" class="form-control" placeholder="Nombre" required>
-  </div>
-
-  <div class="form-group">
-    <label for="entry.820020539">Carrera</label>
-    <input name="entry.820020539" type="text" class="form-control" placeholder="Carrera" required>
-  </div>
-
-  <div class="form-group">
-    <label for="entry.2000967538">¿Asistirás al prelanzamiento de la agrupación?</label>
-    <select name="entry.2000967538">
-      <option value="Si">Si</option>
-      <option value="No">No</option>
-      <option value="Duda">Duda</option>
-    </select>
-  </div>
-
-  <button type="submit" class="btn btn-primary" value="Send">Enviar</button>
-  <small id="emailHelp" class="form-text smallText">Esta información llegará a ucabdevs@gmail.com</small>
-</form>
-</form> -->
