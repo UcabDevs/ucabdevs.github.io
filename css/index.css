@@ -12,7 +12,7 @@
 
 .portada{
   height: 100vh;
-  background-color: #333333;
+  background-color: #0e0e0e;
   display: flex;
   -ms-align-items: center;
   align-items: center;
@@ -53,7 +53,7 @@
 }
 
 .smallSectionBlack{
-  background-color: #1e1e1e;
+  background-color: #0e0e0e;
   display: flex;
   -ms-align-items: center;
   align-items: center;
@@ -69,6 +69,26 @@
 
 .smallSectionBlack h2{
   color: white;
+  margin-bottom: 30px;
+}
+
+.smallSectionGray{
+  background-color: #e8e8e8;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.smallSectionGray p{
+  color: #0e0e0e;
+  font-family: 'Source Code Pro'
+}
+
+.smallSectionGray h2{
+  color: #0e0e0e;
   margin-bottom: 30px;
 }
 
@@ -89,6 +109,12 @@
 .centrado{
   margin: auto;
   text-align: center;
+}
+
+.center-div{
+  height: 350px;
+  display: flex;
+  margin: 0 auto
 }
 
 .centrado h1{
@@ -155,4 +181,133 @@
 .smallText{
   color: #333333;
   margin-top: 20px
+}
+
+.text_center{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.nosotros-card{
+  width: 280px;
+  height: auto;
+  min-height: 350px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #343a40;
+  background-image: url(../img/FondoCarta.jpg);
+  color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,.10), 0 6px 6px rgba(0,0,0,0.10);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.nosotros-card-1{
+  width: 280px;
+  height: auto;
+  min-height: 350px;
+  margin: -415px 259px;
+  padding: 10px;
+  background-color: #343a40;
+  background-image: url(../img/FondoCarta.jpg);
+  position: absolute;
+  color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,.10), 0 6px 6px rgba(0,0,0,0.10);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.isologotipo{
+
+  width: 30px;
+  height: 35px;
+  object-fit: cover;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.img-nosotros{
+  border-radius: 50%;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.10), 0 6px 6px rgba(0,0,0,0.10);
+}
+
+.datos-nosotros{
+  text-align: center;
+}
+
+.datos-nosotros h1{
+font-size: 20px
+}
+
+.datos-nosotros h2{
+font-size: 18px;
+color: white
+}
+.datos-nosotros p{
+font-size: 12px;
+margin-top: 10px;
+color: white
+}
+
+.button-connect-container{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center
+}
+.button-connect-container p{
+
+  margin-top: 10px;
+
+}
+
+.button-connect{
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  border-bottom-right-radius:50px;
+  color: white;
+  background: -webkit-linear-gradient(left, rgb(47, 120, 224) 0%, rgb(36, 181, 214) 100%);
+  box-shadow: 0 10px 30px rgba(0,0,0,.10), 0 6px 6px rgba(0,0,0,0.10);
+}
+
+.button-connect:hover{
+  color: white;
+}
+
+.nosotros-lower{
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px
+}
+
+.nosotros-lower a{
+  color: white
+}
+
+@media (max-width:992px) {
+  .nosotros-card{
+    margin: 0px 0px;
+  }
+
+  .nosotros-card-1{
+    margin: -412px 100px;
+  }
 }

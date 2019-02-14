@@ -9,6 +9,7 @@
     crossorigin="anonymous">
   <script src="js/index.js"></script>
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <meta name="description" content="Sitio web oficial de comunidad de desarrolladores ucabistas" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130025899-1"></script>
@@ -57,9 +58,6 @@
     </nav>
   </header>
 
-  <!-- MODAL PREGUNTA ESTA AQUI PAPUUU-->
-
-
   <section class="portada" id="portada">
     <article class="centrado">
       <img src="img/isotipo.png" alt="">
@@ -98,7 +96,7 @@
     <article class="alignLeft">
       <div class="container">
         <div class="encabezado">
-          <h2>EL 12 DE DICIEMBRE SERÁ NUESTRO PRIMER CONVERSATORIO</h2>
+          <h2>El próximo semestre será el semestre de Javscript</h2>
         </div>
         <p>
           <span class="funciones">function</span> cuandoNosConoceremos(){</p>
@@ -184,20 +182,95 @@
     </article>
   </section>
 
-  <section class="smallSectionBlack" id="pregunta">
+  <section class="smallSectionGray" id="pregunta">
     <article class="alignLeft">
+      <div class="encabezado">
+        <h2>El gaming como metodología del aprendizaje</h2>
+      </div>
       <div class="container">
-        <div class="encabezado">
-          <h2>¿NOS AYUDARÍAS?</h2>
-        </div>
-        <p class="centrado">La agrupación ya está tomando forma. Sin embargo, necesitamos diferentes puntos de vista, sientete libre de dar tu
-          opinión</p>
-        <div class="boton-answer">
-          <button class="btn btn-warning" type="button" name="button" data-toggle="modal" data-target="#pregModal">Opina</button>
+        <div class="row">
+          <div class="col">
+            <div class="center-div">
+              <p class="centrado">
+                En el correo pasado un error ortográfico nos inspiró a desarrollar la idea de utilizar el gaming como metodología
+                de aprendizaje. A partir del semestre que viene estaremos premiando los Devs que consigan ciertos logros que estaremos
+                definiendo y cada uno tendrá en su "Carta" las diferentes insignias que tendremos.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="nosotros-card">
+              <div class="nosotros-upper">
+                <div class="isologotipo">
+                  <img src="img/isotipo.png" class="img-fluid" alt="">
+                </div>
+                <div class="img-nosotros">
+                  <img src="https://picsum.photos/600/700/?random" class="img-fluid" alt="">
+                </div>
+                <div class="datos-nosotros">
+                  <h1>Rafael Escobar</h1>
+                  <h2>Educación</h2>
+                  <p>Esto puede ser una pequeña descripción de cada miembro de UcabDevs</p>
+                </div>
+              </div>
+              <div class="nosotros-lower">
+                <div class="row">
+                  <div class="col text_center">
+                    <a href="javascript:;" title='JavascriptMaster'><i class="fab fa-js"></i></a>
+                  </div>
+                  <div class="col text_center">
+                    <a href="javascript:;" title='WritingMaster'><i class="fas fa-pen-alt"></i></a>
+                  </div>
+                  <div class="col text_center">
+                    <a href="javascript:;" title='Html5Master'><i class="fab fa-html5"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nosotros-card-1">
+              <div class="nosotros-upper">
+                <div class="isologotipo">
+                  <img src="img/isotipo.png" class="img-fluid" alt="">
+                </div>
+                <div class="img-nosotros">
+                  <img src="https://picsum.photos/600/700/?random" class="img-fluid" alt="">
+                </div>
+                <div class="datos-nosotros">
+                  <h1>Miguel De Olim</h1>
+                  <h2>Ingeniería Informática</h2>
+                  <p>Esto puede ser una pequeña descripción de cada miembro de UcabDevs</p>
+                </div>
+              </div>
+              <div class="nosotros-lower">
+                <div class="row">
+                  <div class="col text_center">
+                    <a href="javascript:;" title='PHPMaster'><i class="fab fa-php"></i></a>
+                  </div>
+                  <div class="col text_center">
+                    <a href="javascript:;" title='PythonMaster'><i class="fab fa-python"></i></a>
+                  </div>
+                  <div class="col text_center">
+                    <a href="javascript:;" title='VueMaster'><i class="fab fa-vuejs"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="boton-answer">
+        <button class="btn btn-warning" type="button" name="button" data-toggle="modal" data-target="#pregModal">Envíanos tu foto</button>
+      </div>
+
     </article>
-    <div class="modal fade" tabindex="-1" role="dialog" id="pregModal">
+
+
+    <!-- Modal -->
+    <!-- <div class="boton-answer">
+      <button class="btn btn-warning" type="button" name="button" data-toggle="modal" data-target="#pregModal">Opina</button>
+    </div> -->
+    <!-- <div class="modal fade" tabindex="-1" role="dialog" id="pregModal">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -220,11 +293,8 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
-
-
-
 
   <section class="inscribete" id="inscribete">
 
@@ -281,7 +351,6 @@
       </div>
   </section>
 
-  </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
