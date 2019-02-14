@@ -305,9 +305,11 @@ color: white
 @media (max-width:992px) {
   .nosotros-card{
     margin: 0px 0px;
+    width: 251px;
   }
 
   .nosotros-card-1{
-    margin: -412px 100px;
+    margin: -413px 20px;
+width: 251px;
   }
 }
