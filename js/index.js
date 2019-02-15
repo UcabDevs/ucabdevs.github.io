@@ -2,5 +2,5 @@
 let submitted = false;
 
 function whatIsHacker() {
-  alert('es todo individuo que se dedica a programar de forma entusiasta, o sea un experto entusiasta de cualquier tipo')
+  alert('Se parte del equipo organizador para el semestre que viene. Nos reuniremos mañana viernes 15/02/2019 a la 1:00 pm Terraza DIDES edificio Cincuentenario piso 1.')
 }
